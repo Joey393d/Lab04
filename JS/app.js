@@ -1,4 +1,4 @@
-let CandyOfTheDay = 'Strawberry Sucker';
+let candyOfTheDay = 'Strawberry Sucker';
 
 let menu = ' Suckers, chocolate, pretty much anything';
 
@@ -9,11 +9,11 @@ myOrder = myItems;
 
 
 
-let WantsABag =prompt('Would you like this in a bag?');
+let wantsABag =prompt('Would you like this in a bag?');
 
-if(WantsABag = 'yes') {
-    myOrder = myItems + ' in a bag!'
-} else if (WantsABag = 'no') {
+if(wantsABag === 'yes') {
+    myOrder = myItems + ' in a bag!';
+} else if (wantsABag === 'no') {
     myOrder = myItems + ' without a bag';
 } else {
     myOrder = myItems;

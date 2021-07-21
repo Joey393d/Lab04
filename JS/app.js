@@ -11,9 +11,9 @@ myOrder = myItems;
 
 let WantsABag =prompt('Would you like this in a bag?');
 
-if(WantsABag !== 'yes') {
+if(WantsABag = 'yes') {
     myOrder = myItems + ' in a bag!'
-} else if (WantsABag === 'no') {
+} else if (WantsABag = 'no') {
     myOrder = myItems + ' without a bag';
 } else {
     myOrder = myItems;

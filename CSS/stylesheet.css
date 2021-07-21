@@ -1,9 +1,11 @@
 body {
     width: 50%;
-    color:red
+    color:red;
+    background-color: darkkhaki;
 }
 
 h1{
-    color:darkblue
+    color:darkblue;
+    background-color: darkkhaki;
 }
 

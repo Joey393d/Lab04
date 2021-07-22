@@ -18,6 +18,15 @@ if(wantsABag === 'yes') {
 } else {
     myOrder = myItems;
 }
+   
+   
+//while loop
+  function askUser() {
+      let answer = prompt("Do you want a sucker or no sucker?");
+      while(answer !== 'sucker'){
+          answer=prompt('try again');
+      }
+      alert('Right away!')
+  }
 
-
-document.write('You want: ' + myOrder)
+  askUser();
